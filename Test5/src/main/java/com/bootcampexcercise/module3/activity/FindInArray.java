@@ -1,4 +1,4 @@
-package org.example;
+package com.bootcampexcercise.module3.activity;
 
 public class FindInArray {
     public static void main(String[] args) {
