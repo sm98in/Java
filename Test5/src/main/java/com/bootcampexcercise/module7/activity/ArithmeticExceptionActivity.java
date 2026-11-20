@@ -14,7 +14,6 @@ public class ArithmeticExceptionActivity {
 
 
     void catchMe(int num1, int num2) {
-        // The following code results in an Exception.
         // TODO: 3 - Identify the exception and write code to handle this exception.
         try {
             int result = num1 / num2;
@@ -25,7 +24,6 @@ public class ArithmeticExceptionActivity {
         }
         // TODO: 4 - After handling the exception, write a finally block which
         finally {
-            // prints a message "Thank you for using this program."
             System.out.println("Thank you for using this program.");
         }
     }
